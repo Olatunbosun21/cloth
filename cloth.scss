@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .nav{
+        display: flex;
+       gap: 50px;
+       margin-left: 20%;
+       list-style: none;
+       margin-top: 20px;
+    }
+    .brp{
+        display: flex;
+       gap: 20px;
+       margin-left:48% ;
+       list-style: none;
+       color: rgb(18, 228, 18);
+       animation-name: salm;
+       animation-duration: 3s;
+       animation-timing-function: ease;
+       animation-iteration-count: 1;
+       animation-fill-mode: forwards;
+    }
+    @keyframes salm {
+        100%{
+            transform: translateX(-2rem);
+        }
+        
+    }
+  
+   .shop{
+    color: rgb(18, 228, 18);
+   }
+    .selim{
+        margin-left: 20px;
+        margin-top: -20%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+  .but{
+    margin-left: 50px;
+    margin-top: 15%;
+    gap: 20px;
+    display: flex;
+    background-color: white;
+ }
+  .buto{
+    background-color:  rgb(18, 228, 18);
+    border: 2px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+  }
+  .jor img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid rgb(18, 228, 18);
+    border-radius: 3px;
+    margin-left: 30px;
+
+  }
+.aire{
+   margin-left: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 50px;
+}
+.add{
+    gap: 20px; 
+    margin-left: 20px;
+    display: flex;
+    
+}
+.reg{
+    border: 1px solid  rgb(18, 228, 18);
+}
+.brom{
+    height: 600px;
+    border: 2px solid rgb(18, 228, 18) ;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.sub img{
+    height: 200px;
+    border: 2px solid  rgb(18, 228, 18) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pla{
+    background-color: white;
+    border: 2px solid  rgb(18, 228, 18);
+    width: fit-content;
+}
+.bro:hover{
+      background-color: white;
+      color: rgb(18, 228, 18);
+      border: 2px solid rgb(18, 228, 18);
+}
+.nun{
+    background-color: white;
+    border: none;
+    animation-name: juy
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+@keyframes juy {
+ 100%{
+    transform: translateX(5rem);
+ }
+}
+.nun:focus{
+    color: rgb(18, 228, 18) ;
+    background-color: white;
+    outline: 2px solid rgb(18, 228, 18);
+
+}
+.brom:hover{
+    opacity: 80% 4s;
+}
+}
